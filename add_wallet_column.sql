@@ -1,0 +1,2 @@
+ALTER TABLE customer
+ADD COLUMN IF NOT EXISTS wallet DECIMAL(10,2) DEFAULT 0.00 AFTER points_balance;
